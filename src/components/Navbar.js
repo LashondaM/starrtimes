@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink, withRouter } from 'react-router-dom'
+import { Link, withRouter } from 'react-router-dom'
 // NavLink useful for applying different styles to links 
 
 const Navbar = (props) => {
@@ -22,4 +22,5 @@ const Navbar = (props) => {
     )
 }
 
-export default withRouter(Navbar)
+export default Navbar
+// export default withRouter(Navbar)
